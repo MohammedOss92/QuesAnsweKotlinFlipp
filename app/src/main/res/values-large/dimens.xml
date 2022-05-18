@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="another_layout" type="layout">@layout/activity_main</item>
+    <dimen name="btn_Ques_width">310dp</dimen>
+    <dimen name="btn_Ques_height">130dp</dimen>
+
+    <dimen name="btn_Rate_width">310dp</dimen>
+    <dimen name="btn_Rate_height">130dp</dimen>
+    <dimen name="btn_rate_text">50sp</dimen>
+    <dimen name="btn_ques_text">50sp</dimen>
+</resources>

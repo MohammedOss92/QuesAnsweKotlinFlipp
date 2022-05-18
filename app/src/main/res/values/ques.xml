@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ques">
+        <item>كيف حالك؟</item>
+        <item>شو اخبارك؟</item>
+        <item>هل انت صائم؟</item>
+        <item>هل انت مبسوط؟</item>
+        <item>تلاتاتل؟</item>
+    </string-array>
+</resources>

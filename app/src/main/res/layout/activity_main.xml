@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnQues"
+        android:layout_width="@dimen/btn_Ques_width"
+        android:layout_height="@dimen/btn_Ques_height"
+        android:text="@string/question"
+        android:inputType="text"
+        android:textSize="@dimen/btn_ques_text"
+        android:textColor="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp"
+        android:background="@drawable/state_btn_front"/>
+    <Button
+        android:id="@+id/btnRate"
+        android:layout_width="@dimen/btn_Rate_width"
+        android:layout_height="@dimen/btn_Rate_height"
+        android:inputType="text"
+        android:text="@string/rate_app"
+        android:layout_alignStart="@id/btnQues"
+        android:layout_below="@id/btnQues"
+        android:layout_marginTop="89dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/btn_rate_text"
+        android:background="@drawable/state_btn_front"
+        android:layout_alignLeft="@id/btnQues" />
+
+</RelativeLayout>
